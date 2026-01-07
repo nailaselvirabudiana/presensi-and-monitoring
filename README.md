@@ -43,8 +43,8 @@ Karena data nama ada di *User Service* dan data waktu ada di *Log Service*, pela
 
 ## 🛠️ Tech Stack & Konfigurasi
 
-* **Frontend:** React / Web Interface (Port `3060`)
-* **Backend:** Node.js / Express (Port `3040`)
+* **Frontend:** React / Web Interface (Port `3080`)
+* **Backend:** Node.js / Express (Port `3080`)
 * **Database:** Supabase (PostgreSQL)
 * **Deployment Target:** STB (Set-Top Box) via aaPanel & Cloudflare Tunneling.
 
@@ -54,10 +54,10 @@ Karena data nama ada di *User Service* dan data waktu ada di *Log Service*, pela
 Pastikan file `.env` sudah terisi dengan kredensial Supabase dan konfigurasi port yang sesuai.
 
 ### 2. Menjalankan Backend (Service API)
-Backend berjalan di port `3040` dan menangani request dari kedua konteks (Identity & Logging).
+Backend berjalan di port `3080` dan menangani request dari kedua konteks (Identity & Logging).
 
 ```bash
 cd backend
 npm install
 npm run start
-# Server berjalan di http://localhost:3040 (atau IP Lokal 192.168.x.x:3040)
+# Server berjalan di http://localhost:3080 (atau IP Lokal 192.168.x.x:3080)
