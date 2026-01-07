@@ -74,7 +74,7 @@ docker run -d \
   --restart unless-stopped \
   --env-file .env \
   -e NODE_ENV=production \
-  -p 3080:3080 \
+  -p 3080:80 \
   $IMAGE_NAME
 
 if [ $? -eq 0 ]; then
